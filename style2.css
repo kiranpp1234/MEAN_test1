@@ -1,0 +1,56 @@
+ul {
+
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+
+}
+
+ul1 {
+    float: left;
+    position: left;
+    left: auto;
+    width: 180px;
+    height: 450px;
+    background-color: yellow;
+    margin: 10px;
+
+}
+
+ul2 {
+    float: right;
+    position: right;
+    width: 180px;
+    height: 450px;
+    background-color: yellow;
+    margin: 10px;
+}
+
+
+
+li a {
+    display: block;
+    color: turquoise;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration-color: aqua;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
